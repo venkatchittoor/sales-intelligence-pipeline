@@ -1,7 +1,8 @@
 # Sales Intelligence Pipeline
 
-An end-to-end sales analytics pipeline built with **Claude Code** and the **Databricks Data Intelligence Platform** — demonstrating AI-assisted development, Delta Lake ingestion, SQL analytics, and natural language insights.
+An end-to-end sales analytics pipeline built with **Claude Code** and the Databricks **Data Intelligence Platform** — demonstrating AI-assisted development, Delta Lake ingestion, SQL analytics, and natural language insights.
 
+> *The entire pipeline was built via natural language prompts — no code written manually. This is what AI-assisted data engineering looks like in practice.*
 ---
 
 ## What This Project Does
@@ -105,17 +106,6 @@ python3 main.py
 - **Databricks SQL** — serverless analytics on cloud storage
 - **AI/BI Genie** — plain English querying over the Delta table
 - **Medallion Architecture** — governed data storage pattern
-
----
-
-## How Claude Code Was Used
-
-This entire pipeline was built using **Claude Code** — Anthropic's agentic coding tool — via natural language prompts in the terminal. No code was written manually.
-
-Example prompt used:
-> *"Create a Python project for a Databricks sales intelligence demo with ingestion, SQL analytics, and AI insights."*
-
-Claude Code generated all files, fixed bugs autonomously, and explained every change — demonstrating AI-assisted data engineering at its best.
 
 ---
 
